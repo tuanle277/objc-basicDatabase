@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4D41E942851E667002A4C7E /* vabo chan.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D41E932851E667002A4C7E /* vabo chan.png */; };
 		A4FC3646285057D1009B85B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC3645285057D1009B85B5 /* AppDelegate.m */; };
 		A4FC3649285057D1009B85B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC3648285057D1009B85B5 /* SceneDelegate.m */; };
 		A4FC364C285057D1009B85B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC364B285057D1009B85B5 /* ViewController.m */; };
@@ -19,7 +20,7 @@
 		A4FC366D285057D4009B85B5 /* progClassUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC366C285057D4009B85B5 /* progClassUITestsLaunchTests.m */; };
 		A4FC367B285057F6009B85B5 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC367A285057F6009B85B5 /* Customer.m */; };
 		A4FC367E285060B0009B85B5 /* tableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC367D285060B0009B85B5 /* tableCell.m */; };
-		A4FC368128509344009B85B5 /* tableCelll.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC368028509344009B85B5 /* tableCelll.m */; };
+		A4FC368128509344009B85B5 /* tableCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FC368028509344009B85B5 /* tableCellData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4D41E932851E667002A4C7E /* vabo chan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vabo chan.png"; sourceTree = "<group>"; };
 		A4FC3641285057D1009B85B5 /* progClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = progClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FC3644285057D1009B85B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4FC3645285057D1009B85B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,8 +63,8 @@
 		A4FC367A285057F6009B85B5 /* Customer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
 		A4FC367C285060B0009B85B5 /* tableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tableCell.h; sourceTree = "<group>"; };
 		A4FC367D285060B0009B85B5 /* tableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableCell.m; sourceTree = "<group>"; };
-		A4FC367F28509343009B85B5 /* tableCelll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tableCelll.h; sourceTree = "<group>"; };
-		A4FC368028509344009B85B5 /* tableCelll.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableCelll.m; sourceTree = "<group>"; };
+		A4FC367F28509343009B85B5 /* tableCellData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tableCellData.h; sourceTree = "<group>"; };
+		A4FC368028509344009B85B5 /* tableCellData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableCellData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		A4FC3643285057D1009B85B5 /* progClass */ = {
 			isa = PBXGroup;
 			children = (
+				A4D41E932851E667002A4C7E /* vabo chan.png */,
 				A4FC3644285057D1009B85B5 /* AppDelegate.h */,
 				A4FC3645285057D1009B85B5 /* AppDelegate.m */,
 				A4FC3647285057D1009B85B5 /* SceneDelegate.h */,
@@ -123,8 +126,8 @@
 				A4FC367A285057F6009B85B5 /* Customer.m */,
 				A4FC364D285057D1009B85B5 /* Main.storyboard */,
 				A4FC367C285060B0009B85B5 /* tableCell.h */,
-				A4FC367F28509343009B85B5 /* tableCelll.h */,
-				A4FC368028509344009B85B5 /* tableCelll.m */,
+				A4FC367F28509343009B85B5 /* tableCellData.h */,
+				A4FC368028509344009B85B5 /* tableCellData.m */,
 				A4FC367D285060B0009B85B5 /* tableCell.m */,
 				A4FC3650285057D4009B85B5 /* Assets.xcassets */,
 				A4FC3652285057D4009B85B5 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			files = (
 				A4FC3654285057D4009B85B5 /* LaunchScreen.storyboard in Resources */,
 				A4FC3651285057D4009B85B5 /* Assets.xcassets in Resources */,
+				A4D41E942851E667002A4C7E /* vabo chan.png in Resources */,
 				A4FC364F285057D1009B85B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,7 +289,7 @@
 				A4FC364C285057D1009B85B5 /* ViewController.m in Sources */,
 				A4FC3646285057D1009B85B5 /* AppDelegate.m in Sources */,
 				A4FC3657285057D4009B85B5 /* main.m in Sources */,
-				A4FC368128509344009B85B5 /* tableCelll.m in Sources */,
+				A4FC368128509344009B85B5 /* tableCellData.m in Sources */,
 				A4FC3649285057D1009B85B5 /* SceneDelegate.m in Sources */,
 				A4FC367B285057F6009B85B5 /* Customer.m in Sources */,
 			);

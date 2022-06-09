@@ -1,6 +1,6 @@
-#import "tableCelll.h"
+#import "tableCellData.h"
 
-@implementation tableCelll: NSObject
+@implementation tableCellData: NSObject
 
 -(instancetype) initWithNameMail: (NSString *) name andMail: (NSString *) mail {
     self = [super init];

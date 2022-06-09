@@ -1,15 +1,26 @@
-//
+#import "Customer.h"
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface tableCell : UITableViewCell
+@protocol tableCellDelegate;
+
+@interface tableCell:UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *mailLabel;
-@property int *id;
-- (IBAction)deleteBtn:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UILabel *ageLabel;
+@property (weak, nonatomic) IBOutlet UILabel *phoneLabel;
 
-- (id) initWithNameEmail: (NSString *) name andMail: (NSString *) mail;
+//@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (assign, nonatomic) id <tableCellDelegate> delegate;
+
+-(void) setUp: (Customer *)customer withIndexPath: (nonnull NSIndexPath *) indexPath;
++ (NSString *)identifier;
+@end
+
+@protocol tableCellDelegate <NSObject>
+
+-(void)didChoiceAccount: (tableCell *) cell withIndexPath: (NSIndexPath *) indexPath;
 
 @end
 

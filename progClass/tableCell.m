@@ -1,17 +1,19 @@
 #import "tableCell.h"
-#import "ViewController.h"
+#import "Customer.h"
 
 @implementation tableCell
-//@synthesize nameLabel = _nameLabel;
-//@synthesize mailLabel = _mailLabel;
 
-- (id) initWithNameEmail: (NSString *) name andMail: (NSString *) mail{
-    self.nameLabel.text = name;
-    self.mailLabel.text = mail;
-    return self;
+//like constructor but assign model's properties into cell's properties
+-(void) setUp: (Customer* )customer withIndexPath: (NSIndexPath *) indexPath {
+    self.nameLabel.text = [NSString stringWithFormat: @"Name: %@", customer.username];
+    self.mailLabel.text = [NSString stringWithFormat: @"Name: %@", customer.email];
+    self.ageLabel.text = [NSString stringWithFormat: @"Name: %d", customer.age];
+    self.phoneLabel.text = [NSString stringWithFormat: @"Phone number: %@", customer.phone];
+//    self.image.image = [UIImage imageNamed: customer.profile];
 }
 
-- (IBAction)deleteBtn:(UIButton *)sender {
-
++(NSString *)identifier {
+    return @"customerCell";
 }
+
 @end
